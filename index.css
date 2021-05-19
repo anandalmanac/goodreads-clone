@@ -349,8 +349,12 @@ body {
 }
 /*initial:make all full*/
 .rating-item::before {
+  content: "\2606";
+}
+.not-filled::before {
   content: "\2605";
 }
+
 /*make untill the cliicked star(the rest ) empty*/
 .rating-item.active ~ .rating-item::before {
   content: "\2606";
