@@ -398,6 +398,13 @@ body {
     display: flex;
     flex-direction: column;
   }
+    .rate-it {
+    display: block;
+    height: 60px;
+  }
+  .rating {
+    transform: translateY(-10px);
+  }
   .left-content {
     display: none;
   }
