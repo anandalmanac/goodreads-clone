@@ -336,6 +336,9 @@
 
                              
                              const eClass = e.target.classList;
+                             items.forEach(
+                                 item => item.classList.add('not-filled')
+                             );
                              if (!eClass.contains('active')) {
                                  items.forEach(
                                      item => item.classList.remove('active')
